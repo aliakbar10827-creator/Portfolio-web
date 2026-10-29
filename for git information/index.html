@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Aly Akbar — aspiring Front-End Developer learning HTML, CSS and JavaScript.">
+  <title>Aly Akbar | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo"><span>A</span> Aly <b>Akbar</b></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="contact-nav">Contact ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero container" id="home">
+      <div class="hero-text reveal">
+        <span class="availability"><i class="fa-solid fa-circle"></i> Learning now · Preparing for future clients</span>
+        <p class="location"><i class="fa-solid fa-location-dot"></i> Hazara Town, Quetta, Pakistan</p>
+
+        <h1>Hi, I'm<br><span class="gradient">Aly Akbar</span></h1>
+        <h2>I'm an <span id="typing"></span><span class="cursor">|</span></h2>
+
+        <p class="intro">
+          I am learning to build clean, responsive and interactive websites
+          using HTML, CSS and JavaScript. My goal is to become a successful
+          freelancer and turn ideas into beautiful websites.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/aliakbar10827-creator" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/aly-akbar-hussaini-60547a447/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:aliakbar10827@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://wa.me/923711385352" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image reveal">
+        <div class="image-glow"></div>
+        <div class="image-frame">
+          <img src="1210.jpeg" alt="Aly Akbar profile photo">
+          <div class="image-caption">
+            <span><i class="fa-solid fa-code"></i></span>
+            <div><strong>Learning by building</strong><small>HTML · CSS · JavaScript</small></div>
+          </div>
+        </div>
+        <div class="floating-tag tag-one"><i class="fa-brands fa-html5"></i> HTML5</div>
+        <div class="floating-tag tag-two"><i class="fa-brands fa-js"></i> JavaScript</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <div class="section-title reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient">Me</span></h2>
+        <p>Learning, creating, and improving one project at a time.</p>
+      </div>
+
+      <div class="about-card glass reveal">
+        <div class="about-icon"><i class="fa-solid fa-user-astronaut"></i></div>
+        <h3>Who is Aly Akbar?</h3>
+        <p>
+          I'm an aspiring Front-End Developer from Hazara Town, Quetta, Pakistan.
+          I'm currently a Class 9 student, and Computer Science is my favourite subject.
+        </p>
+        <p>
+          I learn web development through self-learning and practice. I enjoy
+          designing websites, writing code, solving errors, and making web pages
+          responsive and interactive.
+        </p>
+        <p>
+          My future goal is to become a successful freelancer, create websites
+          for clients, and continue improving my development skills.
+        </p>
+        <div class="about-tags"><span>Creative</span><span>Curious</span><span>Always Learning</span></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+      <div class="section-title reveal">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2>My <span class="gradient">Skills</span></h2>
+        <p>My current focus is on front-end web development fundamentals.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <i class="fa-brands fa-html5 skill-html"></i>
+          <h3>HTML5</h3>
+          <p>Building the structure of web pages with semantic HTML.</p>
+          <div class="skill-line"><span style="width:75%"></span></div>
+          <small>Learning and practicing</small>
+        </article>
+        <article class="skill-card reveal">
+          <i class="fa-brands fa-css3-alt skill-css"></i>
+          <h3>CSS3</h3>
+          <p>Styling websites with layouts, colours, responsiveness and effects.</p>
+          <div class="skill-line"><span style="width:65%"></span></div>
+          <small>Learning and practicing</small>
+        </article>
+        <article class="skill-card reveal">
+          <i class="fa-brands fa-js skill-js"></i>
+          <h3>JavaScript</h3>
+          <p>Learning variables, conditions, functions, events and interactivity.</p>
+          <div class="skill-line"><span style="width:45%"></span></div>
+          <small>Learning and practicing</small>
+        </article>
+      </div>
+      <p class="note">Skill bars are visual indicators of my learning journey, not formal test scores.</p>
+    </section>
+
+    <!-- EDUCATION & LEARNING -->
+    <section class="section container" id="education">
+      <div class="section-title reveal">
+        <p class="eyebrow">MY JOURNEY</p>
+        <h2>Education & <span class="gradient">Learning</span></h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-label">CURRENT EDUCATION</span>
+            <h3>Class 9 Student</h3>
+            <p>Continuing school education with a strong interest in Computer Science.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-label">ONGOING</span>
+            <h3>Learning Web Development</h3>
+            <p>Practicing HTML, CSS and JavaScript by writing code, fixing mistakes, and building websites.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-label">FUTURE GOAL</span>
+            <h3>Successful Freelancer</h3>
+            <p>Preparing to build attractive, responsive websites and work on client projects in the future.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section container" id="achievements">
+      <div class="section-title reveal">
+        <p class="eyebrow">MILESTONES I'M PROUD OF</p>
+        <h2>My <span class="gradient">Achievements</span></h2>
+        <p>School, Madrasa, and extracurricular milestones.</p>
+      </div>
+
+      <div class="achievement-grid">
+        <article class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fa-solid fa-trophy"></i></div>
+          <span class="achievement-label">Classes 4–8</span>
+          <h3>Best Student Award</h3>
+          <p>Received the Best Student Award consecutively from Class 4 through Class 8, including cash prizes, for academic excellence and discipline.</p>
+        </article>
+        <article class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fa-solid fa-medal"></i></div>
+          <span class="achievement-label">School Achievement</span>
+          <h3>3rd Position Trophy</h3>
+          <p>Earned a third-position trophy in a school-level academic competition.</p>
+        </article>
+        <article class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fa-solid fa-book-open"></i></div>
+          <span class="achievement-label">Classes 1–4</span>
+          <h3>Madrasa Academic Achievement</h3>
+          <p>Achieved 4th position across Classes 1, 2, 3 and 4 in Madrasa studies.</p>
+        </article>
+        <article class="achievement-card reveal">
+          <div class="achievement-icon"><i class="fa-solid fa-hand-fist"></i></div>
+          <span class="achievement-label">Certificate</span>
+          <h3>Martial Arts Certificate</h3>
+          <p>Received a martial arts certificate recognising participation and dedication to training.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+      <div class="section-title reveal">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured <span class="gradient">Projects</span></h2>
+        <p>Practical projects that show what I'm learning and building.</p>
+      </div>
+
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+        <button class="filter-btn" data-filter="business">Business Website</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal" data-category="portfolio">
+          <div class="project-art portfolio-art">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="art-content"><strong>Hi, I'm Aly Akbar</strong><p>Front-End Developer</p><div class="art-line"></div><div class="art-line short"></div></div>
+            <span class="art-label">PERSONAL PORTFOLIO</span>
+          </div>
+          <div class="project-info">
+            <span class="project-status">In progress</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>A dark, responsive portfolio presenting my skills, education, achievements and projects.</p>
+            <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="#home" class="project-link">View this page <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="business">
+          <div class="project-art salon-art">
+            <i class="fa-solid fa-scissors salon-scissors"></i>
+            <div class="salon-art-text"><small>THE SALON</small><strong>Style starts here.</strong><span>Services · Pricing · Booking</span></div>
+            <span class="art-label">BUSINESS WEBSITE</span>
+          </div>
+          <div class="project-info">
+            <span class="project-status built">Built</span>
+            <h3>Salon & Barber Shop Website</h3>
+            <p>A responsive website for a salon/barber shop concept, with services, pricing information and booking inquiries.</p>
+            <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="https://salons-one.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="https://github.com/aliakbar10827-creator/salons" target="_blank" rel="noopener noreferrer" class="project-link">GitHub <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="note">I'll add more projects as I continue learning and building.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="section-title reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's <span class="gradient">Connect</span></h2>
+        <p>Learning now and preparing for future clients.</p>
+      </div>
+
+      <div class="contact-panel reveal">
+        <div class="contact-copy">
+          <h3>Have a question or an idea?</h3>
+          <p>Feel free to reach out, share feedback, or connect with me as I continue growing as a developer.</p>
+          <a class="contact-row" href="mailto:aliakbar10827@gmail.com"><span class="contact-icon"><i class="fa-solid fa-envelope"></i></span><span><small>Email</small><strong>aliakbar10827@gmail.com</strong></span></a>
+          <a class="contact-row" href="tel:+923711385352"><span class="contact-icon"><i class="fa-solid fa-phone"></i></span><span><small>Phone</small><strong>+92 371 1385352</strong></span></a>
+          <a class="contact-row" href="https://wa.me/923711385352" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span><span><small>WhatsApp</small><strong>Message me on WhatsApp</strong></span></a>
+          <div class="contact-row"><span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span><span><small>Location</small><strong>Hazara Town, Quetta, Pakistan</strong></span></div>
+        </div>
+        <div class="contact-side">
+          <div class="send-icon"><i class="fa-solid fa-paper-plane"></i></div>
+          <h3>Let's keep creating.</h3>
+          <p>Every project is a new opportunity to learn.</p>
+          <a class="btn primary" href="mailto:aliakbar10827@gmail.com?subject=Portfolio%20Contact">Send Me an Email <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="socials">
+            <a href="https://github.com/aliakbar10827-creator" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aly-akbar-hussaini-60547a447/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo"><span>A</span> Aly <b>Akbar</b></a>
+    <p>Designed and built with HTML, CSS & JavaScript.</p>
+    <p>© <span id="year"></span> Aly Akbar. Keep learning. Keep building.</p>
+  </footer>
+
+  <button id="backToTop" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
